@@ -12,7 +12,7 @@ EINSTEIN = {
     "motivation": "for his services to Theoretical Physics...",
 }
 
-with open("laureates.csv", "r") as f:
+with open("laureates.csv", "r") as f:   # r is read mode
     reader = csv.DictReader(f)
     laureates = list(reader)
 
